@@ -1,0 +1,81 @@
+/*Header Section*/
+header {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  header select {
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  /* Main Content Area */
+main {
+    padding: 20px; /* Adds padding around the main content */
+  }
+  
+  /* Car Display Section */
+  #car-display {
+    display: grid; /* Uses CSS Grid for layout */
+    grid-template-columns: 1fr 1fr; /* Creates two equal columns */
+    gap: 20px; /* Adds space between the grid columns */
+  }
+  
+  /* Car Image Box */
+  #car-image-box {
+    text-align: center; /* Centers the car image */
+  }
+  
+  #car-image-box img {
+    max-width: 100%; /* Makes the image responsive (scales down on smaller screens) */
+    height: auto; /* Maintains the image's aspect ratio */
+  }
+  
+  /* Car Details Section */
+  #car-details {
+    display: grid; /* Uses CSS Grid for layout */
+    grid-template-columns: 1fr; /* Creates a single column for details */
+    gap: 10px; /* Adds space between the detail sections */
+  }
+  
+  #car-details > div {
+    border: 1px solid #ddd; /* Adds a light border around detail sections */
+    padding: 15px; /* Adds padding inside the detail sections */
+  }
+  
+  #car-details h2 {
+    margin-bottom: 10px; /* Adds spacing below the detail section headings */
+  }
+  
+  /* Color Swatches Section */
+  #car-colors {
+    display: flex; /* Uses Flexbox to display colors in a row */
+    gap: 5px; /* Adds space between the color swatches */
+  }
+  
+  /* Individual Color Swatch */
+  .color-swatch {
+    width: 25px; /* Sets the width of the color swatches */
+    height: 25px; /* Sets the height of the color swatches */
+    border: 1px solid blue; /* Makes the swatches circular */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+  }
+
+ /* Specific Color Backgrounds */
+.red { background-color: red; }
+.green { background-color: green; }
+.silver { background-color: silver; }
+.white { background-color: white; }
+.black { background-color: black; }
+.yellow { background-color: yellow; }
+.blue { background-color: blue; }
+.brown { background-color: brown; }
+.orange { background-color: orange; }
+.purple { background-color: purple; }
+.teal { background-color: teal; }
+.gold { background-color: gold; }

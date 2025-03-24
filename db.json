@@ -1,0 +1,181 @@
+{
+    "cars": [
+      {
+        "id": "toyota-2000gt",
+        "make": "Toyota",
+        "model": "2000GT",
+        "yearStart": 1967,
+        "yearEnd": 1970,
+        "specs": {
+          "Body": "Ultra-low coupe with a backbone frame", 
+          "engine": "2.0L Inline-6",
+          "horsepower": "150 HP",
+          "suspension": "4-wheel independent with double wishbone and coil springs ",
+          "Torque": "175 N⋅m (129 lb⋅ft) at 5,0rpm",
+          "Transmission": "5-speed manual",
+          "Wheels": "15-inch magnesium alloy wheels", 
+          "Weight": "1,120 kg",
+          "Maximum speed": "220 km/h 0-100 km/h: 8.6 seconds" 
+
+        },
+        "history": "The Toyota 2000GT, a limited-production grand tourer developed in collaboration with Yamaha, emerged in the late 1960s as a groundbreaking sports car for Toyota. With its elegant, low-slung design, advanced engineering, and impressive performance from its inline-6 engine, the 2000GT challenged established European sports cars and significantly elevated Toyota's global reputation. Despite its short production run, it remains a highly sought-after classic, celebrated for its beauty and pioneering role in Japanese automotive history.",
+        "colors": [
+          { "name": "White", "image": "images/toyota-white.jpg" },
+          { "name": "Red", "image": "images/toyota-red.jpg" },
+          { "name": "Yellow", "image": "images/toyota-yellow.jpg"}
+        ],
+        "images": ["placeholder-toyota-image1.jpg", "placeholder-toyota-image2.jpg"]
+      },
+      {
+        "id": "jaguar-e-type",
+        "make": "Jaguar",
+        "model": "E-Type v12",
+        "yearStart": 1971,
+        "yearEnd": 1975,
+        "specs": {
+          "engine": "V12 cylinder 5343cc dohc",
+          "Body Type": "2-door fixed head coupe or roadster, all steel unitary construction with front & rear subframes",
+          "horsepower": "272 bhp @ 5850 rpm",
+          "Torque": "304lb ft @ 3600 rpm",
+          "Brakes": "Discs front & rear",
+          "Transmission":"4 speed manual, all synchro from October 1964 optional 3speed auto on 2+2 & V12",
+          "Maximum speed":"148 mph, 0-60 mph:6.4 seconds",
+          "Weight": "3308lb",
+          "Front Suspension":"Independent by torsion bar & wishbone, anti-roll bar",
+          "Rear Suspension":"Independent by twin coil spring & wishbone with radius arms, anti roll bar"
+
+
+        },
+        "history": "An iconic British sports car, renowned for its design and performance.",
+        "colors": [
+          { "name": "Black", "image": "images/jaguar-blck.jpg" },
+          { "name": "Silver", "image": "images/jaguar-silver.jpg" },
+          { "name": "Red", "image": "images/jaguar-red.jpg" }
+        ],
+        "images": ["placeholder-jaguar-image1.jpg", "placeholder-jaguar-image2.jpg"]
+      },
+      {
+        "id": "ford-mustang-1965",
+        "make": "Ford",
+        "model": "Mustang",
+        "yearStart": 1965,
+        "yearEnd": 1973,
+        "specs": {
+          "engine": "4.7L V8",
+          "horsepower": "200 HP"
+        },
+        "history": "A classic American 'pony car' that defined a generation.",
+        "colors": [
+          { "name": "Blue", "image": "placeholder-mustang-blue.jpg" },
+          { "name": "Red", "image": "placeholder-mustang-red.jpg" },
+          { "name": "White", "image": "placeholder-mustang-white.jpg" }
+        ],
+        "images": ["placeholder-mustang-image1.jpg", "placeholder-mustang-image2.jpg"]
+      },
+      {
+        "id": "chevrolet-corvette-c2",
+        "make": "Chevrolet",
+        "model": "Corvette C2 'Sting Ray'",
+        "yearStart": 1963,
+        "yearEnd": 1967,
+        "specs": {
+          "engine": "5.4L V8",
+          "horsepower": "300 HP"
+        },
+        "history": "The second generation Corvette, known for its sleek 'Sting Ray' design.",
+        "colors": [
+          { "name": "Red", "image": "placeholder-corvette-red.jpg" },
+          { "name": "Black", "image": "placeholder-corvette-black.jpg" },
+          { "name": "Silver", "image": "placeholder-corvette-silver.jpg" }
+        ],
+        "images": ["placeholder-corvette-image1.jpg", "placeholder-corvette-image2.jpg"]
+      },
+      {
+        "id": "volkswagen-beetle",
+        "make": "Volkswagen",
+        "model": "Beetle",
+        "yearStart": 1938,
+        "yearEnd": 2003,
+        "specs": {
+          "engine": "1.2L Flat-4",
+          "horsepower": "36 HP"
+        },
+        "history": "An iconic and globally recognized compact car with a distinctive design.",
+        "colors": [
+          { "name": "Beige", "image": "placeholder-beetle-beige.jpg" },
+          { "name": "Blue", "image": "placeholder-beetle-blue.jpg" },
+          { "name": "Red", "image": "placeholder-beetle-red.jpg" }
+        ],
+        "images": ["placeholder-beetle-image1.jpg", "placeholder-beetle-image2.jpg"]
+      },
+      {
+        "id": "porsche-911-original",
+        "make": "Porsche",
+        "model": "911 (Original)",
+        "yearStart": 1964,
+        "yearEnd": 1973,
+        "specs": {
+          "engine": "2.0L Flat-6",
+          "horsepower": "130 HP"
+        },
+        "history": "The original generation of Porsche's legendary sports car.",
+        "colors": [
+          { "name": "Red", "image": "placeholder-porsche-red.jpg" },
+          { "name": "White", "image": "placeholder-porsche-white.jpg" },
+          { "name": "Light Yellow", "image": "placeholder-porsche-yellow.jpg" }
+        ],
+        "images": ["placeholder-porsche-image1.jpg", "placeholder-porsche-image2.jpg"]
+      },
+      {
+        "id": "mini-cooper-classic",
+        "make": "Mini",
+        "model": "Cooper (Classic)",
+        "yearStart": 1959,
+        "yearEnd": 2000,
+        "specs": {
+          "engine": "848cc Inline-4",
+          "horsepower": "34 HP"
+        },
+        "history": "A small, economical, and iconic British car that became a cultural symbol.",
+        "colors": [
+          { "name": "Red", "image": "placeholder-mini-red.jpg" },
+          { "name": "Green", "image": "placeholder-mini-green.jpg" },
+          { "name": "White", "image": "placeholder-mini-white.jpg" }
+        ],
+        "images": ["placeholder-mini-image1.jpg", "placeholder-mini-image2.jpg"]
+      },
+      {
+        "id": "citroen-ds",
+        "make": "Citroën",
+        "model": "DS",
+        "yearStart": 1955,
+        "yearEnd": 1975,
+        "specs": {
+          "engine": "1.9L Inline-4",
+          "horsepower": "75 HP"
+        },
+        "history": "A revolutionary French car known for its futuristic design and hydropneumatic suspension.",
+        "colors": [
+          { "name": "Black", "image": "placeholder-citroen-black.jpg" },
+          { "name": "Blue", "image": "placeholder-citroen-blue.jpg" },
+          { "name": "White", "image": "placeholder-citroen-white.jpg" }
+        ],
+        "images": ["placeholder-citroen-image1.jpg", "placeholder-citroen-image2.jpg"]
+      },
+      {
+        "id": "alfa-romeo-spider",
+        "make": "Alfa Romeo",
+        "model": "Spider (Duetto)",
+        "yearStart": 1966,
+        "yearEnd": 1994,
+        "specs": {
+          "engine": "1.6L Inline-4",
+          "horsepower": "109 HP"
+        },
+        "history": "A beautiful Italian roadster that became famous for its appearance in 'The Graduate'.",
+        "colors": [
+          { "name": "Red", "image": "placeholder-alfa-red.jpg" },
+          { "name": "White", "image": "placeholder-alfa-white.jpg" },
+          { "name": "Blue", "image": "placeholder-alfa-blue.jpg" }
+        ],
+        "images": ["placeholder-alfa-image1.jpg"]} ]}
