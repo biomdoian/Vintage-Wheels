@@ -87,9 +87,13 @@
         },
         "history": "The second generation Corvette, known for its sleek 'Sting Ray' design.",
         "colors": [
-          { "name": "Red", "image": "placeholder-corvette-red.jpg" },
-          { "name": "Black", "image": "placeholder-corvette-black.jpg" },
-          { "name": "Silver", "image": "placeholder-corvette-silver.jpg" }
+          { "name": "Red", "image": "images/Chevrolet Corvette C2-red.jpg" },
+          { "name": "Black", "image": "images/Chevrolet Corvette C2-black.jpg" },
+          { "name": "Silver", "image": "images/Chevrolet Corvette C2-silver.jpg" },
+          { "name": "Blue", "image": "images/Chevrolet Corvette C2-blue.jpg" },
+          { "name": "Yellow", "image": "images/Chevrolet Corvette C2-yellow.jpg" },
+          { "name": "Orange", "image": "images/Chevrolet Corvette C2-orange.jpg" },
+          { "name": "Gold", "image": "images/Chevrolet Corvette C2-gold.jpg" }
         ],
         "images": ["placeholder-corvette-image1.jpg", "placeholder-corvette-image2.jpg"]
       },
