@@ -1,4 +1,4 @@
-/*// Fetch car data from the JSON Server
+// Fetch car data from the JSON Server
 fetch('http://localhost:4000/cars')
   .then(response => response.json())
   .then(cars => {
@@ -59,4 +59,4 @@ fetch('http://localhost:4000/cars')
       displayCarDetails(cars[0]);
     }
   });
-*/
+

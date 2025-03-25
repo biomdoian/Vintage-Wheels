@@ -66,9 +66,12 @@
         },
         "history": "A classic American 'pony car' that defined a generation.",
         "colors": [
-          { "name": "Blue", "image": "placeholder-mustang-blue.jpg" },
-          { "name": "Red", "image": "placeholder-mustang-red.jpg" },
-          { "name": "White", "image": "placeholder-mustang-white.jpg" }
+          { "name": "Black", "image": "images/Ford Mustang-black.jpg" },
+          { "name": "Red", "image": "images/Ford Mustang-red.jpg" },
+          { "name": "White", "image": "images/Ford Mustang-white.jpg" },
+          { "name": "Green", "image": "images/Ford Mustang-green.jpg" },
+          { "name": "pink", "image": "images/Ford Mustang-pink.jpg" },
+          { "name": "Yellow", "image": "images/Ford Mustang-Yellow.jpg" }
         ],
         "images": ["placeholder-mustang-image1.jpg", "placeholder-mustang-image2.jpg"]
       },
