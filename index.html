@@ -4,67 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vintage Wheels</title>
+    <title>Vintage Car Showcase</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <header>
-        <h1>Vintage Wheels</h1>
+        <h1>Vintage Car Gallery</h1>
+        <label for="car-select">Select a Classic Car:</label>
         <select id="car-select">
-            <option value="">Select a Car</option>
+            <option value="">-- Choose a Car --</option>
         </select>
     </header>
 
     <main>
-        <section id="car-display">
-            <div id="car-image-box">
-                <img id="car-image" src="images/vintage-wheels-main.jpg" alt="Vintage Wheels">
-            </div>
+        <section id="car-content">
+            <section id="car-image-display">
+                <div id="car-image-box">
+                    <img id="car-image" src="images/vintage-wheels-main.jpg" alt="Vintage Wheels">
+                </div>
+            </section>
 
-            <div id="car-details">
+            <section id="car-details-display">
                 <div id="car-specs-box">
                     <h2>Specifications</h2>
                     <div id="car-specs"></div>
                 </div>
-
                 <div id="car-colors-box">
                     <h2>Colors</h2>
                     <div id="car-colors"></div>
                 </div>
-
                 <div id="car-history-box">
                     <h2>History</h2>
                     <div id="car-history"></div>
                 </div>
-
                 <div id="car-years-box">
                     <h2>Production Years</h2>
                     <div id="car-years"></div>
                 </div>
-            </div>
+            </section>
         </section>
 
         <section id="favorite-car-review">
             <h2>Share Your Thoughts!</h2>
             <form id="review-form">
-              <div>
-                  <label for="name">Your Name:</label>
-                  <input type="text" id="name" name="name" required>
-              </div>
-              <div>
-                  <label for="favorite-car">Your Favorite Vintage Car:</label>
-                  <input type="text" id="favorite-car" name="favorite-car" required>
-              </div>
-              <div>
-                  <label for="review">Your Review:</label>
-                  <textarea id="review" name="review" rows="5" required></textarea>
-              </div>
-              <button type="submit">Submit Review</button>
-              <p id="submission-message" style="display:none; color: green;">Response Submitted!</p>
-          </form>
+                <div>
+                    <label for="name"> Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="preferred-car"> Preferred Vintage Car:</label>
+                    <input type="text" id="preferred-car" name="preferred-car">
+                </div>
+                <div>
+                    <label for="least-appealing-car"> Least Preferred Vintage Car:</label>
+                    <input type="text" id="least-appealing-car" name="least-appealing-car">
+                </div>
+                <button type="submit">Submit</button>
+                <p id="submission-message" style="display:none; color: green;">Response Submitted!</p>
+            </form>
         </section>
     </main>
+
+    <footer>
+        <p>&copy; 2023 Vintage Car Gallery</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>

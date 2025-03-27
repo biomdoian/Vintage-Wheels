@@ -1,71 +1,196 @@
-/*Header Section*/
+/* styles.css */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px; 
+  background-color: #00A6A6; /* Overall background color */
+  color: #333;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
 header {
-    background-color: #f0f0f0; /* Light gray background */
-    padding: 20px;
-    text-align: center;
-  }
-  
-  header h1 {
-    margin-bottom: 10px;
-  }
-  
-  header select {
-    padding: 8px;
-    font-size: 16px;
-  }
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #00A6A6;
+  color: #fff;
+  border-radius: 8px;
+}
 
-  /* Main Content Area */
+header h1 {
+  margin-top: 0;
+}
+
+header label {
+  display: block;
+  margin-top: 10px;
+  font-size: 1em;
+  color: #ddd;
+}
+
+#car-select {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #654321;
+  margin-top: 0.5rem;
+  background-color: #80CBC4;
+  color: #333;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20fill%3D%22%23fff%22%20viewBox%3D%220%200%2024%2024%22%20focusable%3D%22false%22%3E%3Cpath%20d%3D%22M7%2010l5%205%205-5z%22%3E%3C/path%3E%3C/svg%3E');
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 50%;
+  padding-right: 2.5rem;
+  cursor: pointer;
+}
+
 main {
-    padding: 20px; /* Adds padding around the main content */
-  }
-  
-  /* Car Display Section */
-  #car-display {
-    display: grid; /* Uses CSS Grid for layout */
-    grid-template-columns: 1fr 1fr; /* Creates two equal columns */
-    gap: 20px; /* Adds space between the grid columns */
-  }
-  
-  /* Car Image Box */
-  #car-image-box {
-    text-align: center; /* Centers the car image */
-  }
-  
-  #car-image-box img {
-    max-width: 100%; /* Makes the image responsive (scales down on smaller screens) */
-    height: auto; /* Maintains the image's aspect ratio */
-  }
-  
-  /* Car Details Section */
-  #car-details {
-    display: grid; /* Uses CSS Grid for layout */
-    grid-template-columns: 1fr; /* Creates a single column for details */
-    gap: 10px; /* Adds space between the detail sections */
-  }
-  
-  #car-details > div {
-    border: 1px solid #ddd; /* Adds a light border around detail sections */
-    padding: 15px; /* Adds padding inside the detail sections */
-  }
-  
-  #car-details h2 {
-    margin-bottom: 10px; /* Adds spacing below the detail section headings */
-  }
-  
-  /* Color Swatches Section */
-  #car-colors {
-    display: flex; /* Uses Flexbox to display colors in a row */
-    gap: 5px; /* Adds space between the color swatches */
-  }
-  
-  /* Individual Color Swatch */
-  .color-swatch {
-    width: 25px; /* Sets the width of the color swatches */
-    height: 25px; /* Sets the height of the color swatches */
-    border: 1px solid blue; /* Makes the swatches circular */
-    cursor: pointer; /* Changes the cursor to a pointer on hover */
-  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal width columns */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+}
 
+#car-content {
+  display: flex;
+  gap: 25px; /* Space between image and details within car-content */
+}
+
+#car-image-display {
+  flex: 10;
+  background-color: #2ce482;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px; /* Ensures the minimum height */
+}
+
+#car-image-box {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#car-image {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+#car-details-display {
+  flex: 6;
+  background-color: #2ce482; 
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 300px;
+}
+
+#car-specs-box,
+#car-colors-box,
+#car-history-box,
+#car-years-box {
+  background-color: transparent; /* Background set on the parent */
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+#car-years-box {
+  border-bottom: none; /* Remove border from the last item */
+}
+
+#favorite-car-review {
+  background-color: #80CBC4;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 300px;
+  overflow-y: auto;
+  grid-column: 2 / 3; /* Move to the second (middle) column */
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;}
+
+#favorite-car-review h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #00A6A6;
+}
+
+#review-form div {
+  margin-bottom: 15px;
+}
+
+#review-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#review-form input[type="text"],
+#review-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #669999;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1em;
+  background-color: #e0f2f7;
+  color: #333;
+}
+
+#review-form textarea {
+  resize: vertical;
+}
+
+#review-form button[type="submit"] {
+  background-color: #654321;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+#review-form button[type="submit"]:hover {
+  background-color: #4a301a;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #00A6A6;
+  border-radius: 8px;
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+
+/* Color Swatches */
+.color-swatch {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid #669999;
+}
+ 
  /* Specific Color Backgrounds */
 .red { background-color: red; }
 .green { background-color: green; }

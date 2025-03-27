@@ -160,13 +160,11 @@
          "defaultImage": "images/volkswagen beetle -main.jpg",
         "colors": [
           { "name": "pink", "image": "images/volkswagen beetle-pink.jpg" },
-          { "name": "Blue", "image": "images/volkswagen beetle-blue.jpg" },
           { "name": "Red", "image": "images/volkswagen beetle-red.jpg" },
           { "name": "yellow", "image": "images/volkswagen beetle-yellow.jpg" },
           { "name": "black", "image": "images/volkswagen beetle-black.jpg" },
           { "name": "white", "image": "images/volkswagen beetle-white.jpg" },
           { "name": "green", "image": "images/volkswagen beetle-green.jpg" },
-          { "name": "orange", "image": "images/volkswagen beetle-orange.jpg" },
           { "name": "gold", "image": "images/volkswagen beetle-gold.jpg" },
           { "name": "silver", "image": "images/volkswagen beetle-silver.jpg" },
           { "name": "teal", "image": "images/volkswagen beetle-teal.jpg" },

@@ -2,7 +2,7 @@
 fetch('http://localhost:3000/cars')
     .then(response => response.json())
     .then(cars => {
-        // GetS the references to HTML elements
+        // Gets the references to HTML elements
         const carSelect = document.getElementById('car-select');
         const carImage = document.getElementById('car-image');
         const carSpecs = document.getElementById('car-specs');
@@ -12,10 +12,10 @@ fetch('http://localhost:3000/cars')
         const reviewForm = document.getElementById('review-form');
         const submissionMessage = document.getElementById('submission-message');
         const nameInput = document.getElementById('name');
-        const favoriteCarInput = document.getElementById('favorite-car');
-        const reviewTextarea = document.getElementById('review');
+        const preferredCarInput = document.getElementById('preferred-car');
+        const leastAppealingCarInput = document.getElementById('least-appealing-car');
 
-        // This code populates the car selection dropdown
+        // Populates the car selection dropdown
         cars.forEach(car => {
             const option = document.createElement('option');
             option.value = car.id;
@@ -23,26 +23,21 @@ fetch('http://localhost:3000/cars')
             carSelect.appendChild(option);
         });
 
+        // Function to display car details
         function displayCarDetails(car) {
-            carImage.src = car.defaultImage; 
-
-            // Displays all specs
-            carSpecs.innerHTML = ''; 
+            carImage.src = car.defaultImage;
+            carSpecs.innerHTML = '';
             for (const key in car.specs) {
                 carSpecs.innerHTML += `<p>${key}: ${car.specs[key]}</p>`;
             }
-
             carHistory.textContent = car.history;
-
             carYears.textContent = `(${car.yearStart} - ${car.yearEnd})`;
-
-            //This code is to generate color swatches
-            carColors.innerHTML = ''; 
+            carColors.innerHTML = '';
             car.colors.forEach(color => {
                 const swatch = document.createElement('div');
                 swatch.classList.add('color-swatch', color.name.toLowerCase());
                 swatch.addEventListener('click', () => {
-                    carImage.src = color.image; // Changes the car image to selected color
+                    carImage.src = color.image;
                 });
                 carColors.appendChild(swatch);
             });
@@ -50,14 +45,14 @@ fetch('http://localhost:3000/cars')
 
         // Function to clear car details
         function clearCarDetails() {
-            carImage.src = 'images/vintage-wheels-main.jpg'; 
+            carImage.src = 'images/vintage-wheels-main.jpg';
             carSpecs.innerHTML = '';
             carHistory.textContent = '';
             carYears.textContent = '';
             carColors.innerHTML = '';
         }
 
-        //This code handles the  car selection change event
+        // Handles car selection change event
         carSelect.addEventListener('change', (event) => {
             const selectedCarId = event.target.value;
             const selectedCar = cars.find(car => car.id === selectedCarId);
@@ -65,13 +60,13 @@ fetch('http://localhost:3000/cars')
             if (selectedCar) {
                 displayCarDetails(selectedCar);
             } else {
-                clearCarDetails(); 
+                clearCarDetails();
             }
         });
 
-        // This code handles the  form submission
+        // Handles form submission
         reviewForm.addEventListener('submit', (event) => {
-            event.preventDefault(); 
+            event.preventDefault(); // Prevent the default form submission
 
             let isValid = true;
 
@@ -80,16 +75,24 @@ fetch('http://localhost:3000/cars')
                 alert('Name is mandatory. Please enter your name.');
                 isValid = false;
             }
+            // Checks if both preferred and least appealing car fields are empty
+            const preferredCarValue = preferredCarInput.value.trim();
+            const leastAppealingCarValue = leastAppealingCarInput.value.trim();
+
+            if (preferredCarValue === '' && leastAppealingCarValue === '') {
+                alert('Please fill at least one of the "Preferred Vintage Car" or "Least Preferred Vintage Car" boxes.');
+                isValid = false;
+            }
 
             if (!isValid) {
-                return; // Stop submission if validation fails
+                return; // Stops the submission if validation fails
             }
 
             // If validation passes, proceed with submission (for now, display message)
             console.log('Form submitted successfully!'); 
             console.log('Name:', nameInput.value);
-            console.log('Favorite Car:', favoriteCarInput.value);
-            console.log('Review:', reviewTextarea.value);
+            console.log('Preferred Vintage Car:', preferredCarInput.value);
+            console.log('Least Preferred Vintage Car:', leastAppealingCarInput.value);
 
             submissionMessage.style.display = 'block';
             reviewForm.reset();
@@ -98,6 +101,10 @@ fetch('http://localhost:3000/cars')
             }, 3000);
         });
 
-        // Displays the initial state (headers only, main image) when the page is loaded
+        // Display the initial state (headers only, main image) on load
         clearCarDetails();
     });
+
+
+
+
