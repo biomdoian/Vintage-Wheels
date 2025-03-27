@@ -19,6 +19,7 @@
 
         },
         "history": "The Toyota 2000GT, a limited-production grand tourer developed in collaboration with Yamaha, emerged in the late 1960s as a groundbreaking sports car for Toyota. With its elegant, low-slung design, advanced engineering, and impressive performance from its inline-6 engine, the 2000GT challenged established European sports cars and significantly elevated Toyota's global reputation. Despite its short production run, it remains a highly sought-after classic, celebrated for its beauty and pioneering role in Japanese automotive history.",
+        "defaultImage": "images/toyota-2000gt-main.jpg",
         "colors": [
           { "name": "White", "image": "images/toyota-white.jpg" },
           { "name": "Red", "image": "images/toyota-red.jpg" },
@@ -47,6 +48,7 @@
 
         },
         "history": "An iconic British sports car, renowned for its design and performance.",
+        "defaultImage": "images/Jaguar E Type-main.jpg",
         "colors": [
           { "name": "Black", "image": "images/jaguar-blck.jpg" },
           { "name": "Silver", "image": "images/jaguar-silver.jpg" },
@@ -65,6 +67,7 @@
           "horsepower": "200 HP"
         },
         "history": "A classic American 'pony car' that defined a generation.",
+        "defaultImage": "images/Ford Mustang -main.jpg",
         "colors": [
           { "name": "Black", "image": "images/Ford Mustang-black.jpg" },
           { "name": "Red", "image": "images/Ford Mustang-red.jpg" },
@@ -86,6 +89,7 @@
           "horsepower": "300 HP"
         },
         "history": "The second generation Corvette, known for its sleek 'Sting Ray' design.",
+        "defaultImage": "images/Chevrolet Corvette C2 -main.jpg",
         "colors": [
           { "name": "Red", "image": "images/Chevrolet Corvette C2-red.jpg" },
           { "name": "Black", "image": "images/Chevrolet Corvette C2-black.jpg" },
@@ -108,6 +112,7 @@
           "horsepower": "36 HP"
         },
         "history": "An iconic and globally recognized compact car with a distinctive design.",
+         "defaultImage": "images/volkswagen beetle -main.jpg",
         "colors": [
           { "name": "pink", "image": "images/volkswagen beetle-pink.jpg" },
           { "name": "Blue", "image": "images/volkswagen beetle-blue.jpg" },
@@ -133,6 +138,7 @@
           "horsepower": "130 HP"
         },
         "history": "The original generation of Porsche's legendary sports car.",
+        "defaultImage":"image/porsche-911-original-main.jpg",
         "colors": [
           { "name": "Red", "image": "placeholder-porsche-red.jpg" },
           { "name": "White", "image": "placeholder-porsche-white.jpg" },
@@ -151,6 +157,7 @@
           "horsepower": "34 HP"
         },
         "history": "A small, economical, and iconic British car that became a cultural symbol.",
+        "defaultImage":"image/mini-cooper-classic-main.jpg",
         "colors": [
           { "name": "Red", "image": "placeholder-mini-red.jpg" },
           { "name": "Green", "image": "placeholder-mini-green.jpg" },
@@ -169,6 +176,7 @@
           "horsepower": "75 HP"
         },
         "history": "A revolutionary French car known for its futuristic design and hydropneumatic suspension.",
+        "defaultImage":"image/citroen-ds-main.jpg",
         "colors": [
           { "name": "Black", "image": "placeholder-citroen-black.jpg" },
           { "name": "Blue", "image": "placeholder-citroen-blue.jpg" },
@@ -187,6 +195,7 @@
           "horsepower": "109 HP"
         },
         "history": "A beautiful Italian roadster that became famous for its appearance in 'The Graduate'.",
+        "defaultImage":"image/alfa-romeo-spider-main.jpg",
         "colors": [
           { "name": "Red", "image": "placeholder-alfa-red.jpg" },
           { "name": "White", "image": "placeholder-alfa-white.jpg" },
