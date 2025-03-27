@@ -23,7 +23,14 @@
         "colors": [
           { "name": "White", "image": "images/toyota-white.jpg" },
           { "name": "Red", "image": "images/toyota-red.jpg" },
-          { "name": "Yellow", "image": "images/toyota-yellow.jpg"}
+          { "name": "Blue", "image": "images/toyota-blue.jpg"},
+          { "name": "Yellow", "image": "images/toyota-yellow.jpg"},
+          { "name": "black", "image": "images/toyota-black.jpg"},
+          { "name": "green", "image": "images/toyota-green.jpg"},
+          { "name": "orange", "image": "images/toyota-orange.jpg"},
+          { "name": "silver", "image": "images/toyota-silver.jpg"},
+          { "name": "gold", "image": "images/toyota-gold.jpg"},
+          { "name": "maroon", "image": "images/toyota-maroon.jpg"}
         ],
         "images": ["placeholder-toyota-image1.jpg", "placeholder-toyota-image2.jpg"]
       },
@@ -47,12 +54,19 @@
 
 
         },
-        "history": "An iconic British sports car, renowned for its design and performance.",
+        "history": "The Jaguar E-Type, born from Jaguar's racing success with the D-Type, was unveiled in 1961 to immense excitement, almost missing its Geneva debut due to last-minute demand. Its revolutionary and beautiful design, featuring unique elements like faired-in headlights and a centered exhaust, was rumored to be called `the most beautiful car ever made` by Enzo Ferrari. Beyond its looks, the E-Type was surprisingly affordable at launch and boasted advanced specifications like independent rear suspension and disc brakes, along with a 3.8-liter engine producing 265bhp and a top speed of 150mph, making it the fastest production car at the time. The E-Type evolved through three series (Series 1, 2, and 3) between 1961 and 1975, with notable changes in design and engine size, including a V12 in the final Series 3. Known as the XK-E in North America, the E-Type was highly popular, with a total production of 72,528 cars across all series. While the exact number remaining is unknown, 4,565 are currently licensed in the UK. The E-Type's iconic status has attracted numerous celebrity owners and continues to make it a highly desirable classic car.",
         "defaultImage": "images/Jaguar E Type-main.jpg",
         "colors": [
           { "name": "Black", "image": "images/jaguar-blck.jpg" },
           { "name": "Silver", "image": "images/jaguar-silver.jpg" },
-          { "name": "Red", "image": "images/jaguar-red.jpg" }
+          { "name": "Red", "image": "images/jaguar-red.jpg" },
+          { "name": "Blue", "image": "images/jaguar-blue.jpg" },
+          { "name": "gold", "image": "images/jaguar-gold.jpg" },
+          { "name": "maroon", "image": "images/jaguar-maroon.jpg" },
+          { "name": "orange", "image": "images/jaguar-orange.jpg" },
+          { "name": "yellow", "image": "images/jaguar-yellow.jpg" },
+          { "name": "white", "image": "images/jaguar-white.jpg" },
+          { "name": "green", "image": "images/jaguar-green.jpg" }
         ],
         "images": ["placeholder-jaguar-image1.jpg", "placeholder-jaguar-image2.jpg"]
       },
@@ -63,10 +77,18 @@
         "yearStart": 1965,
         "yearEnd": 1973,
         "specs": {
-          "engine": "4.7L V8",
-          "horsepower": "200 HP"
+          "Body": "2-door coupe, convertible, or fastback",
+          "engine": "Various Inline-6 and V8 options ranging from 3.3L to 7.0L",
+          "horsepower": "Ranged from approximately 101 HP to over 375 HP (depending on the engine)",
+          "Torque": "Ranged significantly depending on the engine",
+          "Brakes": "Front disc brakes (optional, standard on some later models), rear drum brakes",
+          "Transmission": "3-speed manual, 4-speed manual, or 3-speed automatic",
+          "Maximum speed": "Varied greatly depending on the engine",
+          "0-60 mph": "Varied greatly depending on the engine",
+          "Front Suspension": "Independent, unequal-length control arms, coil springs",
+          "Rear Suspension": "Live axle, leaf springs"
         },
-        "history": "A classic American 'pony car' that defined a generation.",
+        "history": "The Ford Mustang's creation in the 1960s was a direct response to the burgeoning Baby Boomer generation, a youthful and increasingly educated demographic with specific automotive desires. Ford's extensive market research revealed a need for a stylish, sporty, and affordable car, particularly appealing to women as second car owners. This research influenced design elements like the option for manual or automatic transmission, bucket seats, and a sporty feel. Concept cars like the Allegro and Mustang I explored European styling cues, while an internal design competition led to the favored `little white car with red wheels ` The Mustang II concept further validated the design direction. Ford's marketing strategy emphasized the car's glamorous styling and surprisingly low price, downplaying performance and practicality initially. The Mustang's 1964 debut at the New York World's Fair, supported by unprecedented simultaneous advertising across all three major TV networks, ignited Mustang Mania, with overwhelming demand at dealerships nationwide. Within its first year, over 420,000 Mustangs were sold, establishing it as a massive success and a cultural phenomenon, embodying fun and youth and glamour. By 1966, the one-millionth Mustang was produced, solidifying its significant impact on the American economy and attracting a younger, more diverse customer base who were primarily drawn to its appearance.",
         "defaultImage": "images/Ford Mustang -main.jpg",
         "colors": [
           { "name": "Black", "image": "images/Ford Mustang-black.jpg" },
@@ -74,7 +96,11 @@
           { "name": "White", "image": "images/Ford Mustang-white.jpg" },
           { "name": "Green", "image": "images/Ford Mustang-green.jpg" },
           { "name": "pink", "image": "images/Ford Mustang-pink.jpg" },
-          { "name": "Yellow", "image": "images/Ford Mustang-Yellow.jpg" }
+          { "name": "Yellow", "image": "images/Ford Mustang-Yellow.jpg" },
+          { "name": "silver", "image": "images/Ford Mustang-silver.jpg" },
+          { "name": "orange", "image": "images/Ford Mustang-orange.jpg" },
+          { "name": "maroon", "image": "images/Ford Mustang-maroon.jpg" },
+          { "name": "teal", "image": "images/Ford Mustang-teal.jpg" }
         ],
         "images": ["placeholder-mustang-image1.jpg", "placeholder-mustang-image2.jpg"]
       },
@@ -85,10 +111,18 @@
         "yearStart": 1963,
         "yearEnd": 1967,
         "specs": {
+          "Body": "2-door coupe or convertible",
           "engine": "5.4L V8",
-          "horsepower": "300 HP"
+          "horsepower": "300 HP",
+          "Torque": "360 lb-ft",
+          "Brakes": "4-wheel disc brakes",
+          "Transmission": "4-speed manual (various options available)",
+          "Maximum speed": "Approx. 150 mph (depending on engine)",
+          "0-60 mph": "Approx. 5.8 seconds (depending on engine)",
+          "Suspension Front": "Independent, unequal-length control arms, coil springs, anti-roll bar",
+          "Suspension Rear": "Independent, trailing arms, transverse leaf spring"
         },
-        "history": "The second generation Corvette, known for its sleek 'Sting Ray' design.",
+        "history": "The Chevrolet Corvette Stingray's origin can be traced back to Bill Mitchell, GM's VP of design in the 1950s, though the initial sketches were by designer Pete Brock, with Larry Shinoda as the lead developer of the concept. The \"Stingray\" name came from Mitchell's fascination with stingrays he observed while deep-sea fishing. Mitchell's inspiration for the design was sparked by a 1957 trip to the Turin Auto Show in Italy, where he admired the flowing curves of Abarths and Alfa Romeos, particularly the Alfa Romeo Disco Volante. Upon returning to the U.S., Mitchell created his interpretation, resulting in the 1959 Corvette Stingray Concept. Initially intended as a race car utilizing components from other Corvette concepts, Mitchell ended up racing it himself after GM declined to fund its racing efforts. After a successful SCCA race in 1960, GM pressured Mitchell to retire the Stingray racer. However, he continued to develop the design, and the first production Corvette Stingray (the C2) was launched in 1963. Key details about the first production Stingray (1963 C2) included a 327 CID V8 engine, 250 hp, 350 lb-ft of torque, and a 0-60 MPH time of 6.0 seconds. The 1963 Stingray was notable for its handling capabilities. The Corvette Stingray underwent a redesign for the 1968 model year, becoming the Chevrolet Corvette Stingray C3. Key details about the 1968 Chevrolet Corvette Stingray C3 included a 327 CID V8 engine, 300 hp, 360 lb-ft of torque, and a 0-60 MPH time of 6.2 seconds. The C3 generation featured a more aerodynamic design.",
         "defaultImage": "images/Chevrolet Corvette C2 -main.jpg",
         "colors": [
           { "name": "Red", "image": "images/Chevrolet Corvette C2-red.jpg" },
@@ -97,7 +131,10 @@
           { "name": "Blue", "image": "images/Chevrolet Corvette C2-blue.jpg" },
           { "name": "Yellow", "image": "images/Chevrolet Corvette C2-yellow.jpg" },
           { "name": "Orange", "image": "images/Chevrolet Corvette C2-orange.jpg" },
-          { "name": "Gold", "image": "images/Chevrolet Corvette C2-gold.jpg" }
+          { "name": "Gold", "image": "images/Chevrolet Corvette C2-gold.jpg" },
+          { "name": "pink", "image": "images/Chevrolet Corvette C2-pink.jpg" },
+          { "name": "white", "image": "images/Chevrolet Corvette C2-white.jpg" },
+          { "name": "green", "image": "images/Chevrolet Corvette C2-green.jpg" }
         ],
         "images": ["placeholder-corvette-image1.jpg", "placeholder-corvette-image2.jpg"]
       },
@@ -108,10 +145,18 @@
         "yearStart": 1938,
         "yearEnd": 2003,
         "specs": {
-          "engine": "1.2L Flat-4",
-          "horsepower": "36 HP"
+          "Body": "2-door sedan (saloon) or convertible",
+          "engine": "Air-cooled, horizontally opposed four-cylinder (flat-four) ranging from approximately 1.1L to 1.6L",
+          "horsepower": "Ranged from approximately 25 HP to 60 HP (depending on the year and engine)",
+          "Torque": "Ranged depending on the engine",
+          "Brakes": "Drum brakes (initially mechanical, later hydraulic) all around",
+          "Transmission": "4-speed manual",
+          "Maximum speed": "Varied depending on the engine, typically between 60 mph to 80 mph",
+          "0-60 mph": "Varied significantly depending on the engine and year, generally quite leisurely",
+          "Front Suspension": "Independent, torsion bars, trailing arms",
+          "Rear Suspension": "Independent, swing axle (early models), later independent with trailing arms (IRS on some models)"
         },
-        "history": "An iconic and globally recognized compact car with a distinctive design.",
+        "history":"The Volkswagen Beetle's origins lie in the 1930s with Ferdinand Porsche's concept for a 'people's car' commissioned by Adolf Hitler. Production began in earnest after World War II, becoming a symbol of Germany's post-war recovery and a global automotive icon. Known for its distinctive rounded shape, air-cooled rear engine, and affordability, the Beetle remained in production for decades with gradual mechanical and styling updates. It achieved massive popularity worldwide, becoming a cultural phenomenon and one of the best-selling cars of all time, renowned for its reliability and unique character.",
          "defaultImage": "images/volkswagen beetle -main.jpg",
         "colors": [
           { "name": "pink", "image": "images/volkswagen beetle-pink.jpg" },
@@ -123,7 +168,9 @@
           { "name": "green", "image": "images/volkswagen beetle-green.jpg" },
           { "name": "orange", "image": "images/volkswagen beetle-orange.jpg" },
           { "name": "gold", "image": "images/volkswagen beetle-gold.jpg" },
-          { "name": "silver", "image": "images/volkswagen beetle-silver.jpg" }
+          { "name": "silver", "image": "images/volkswagen beetle-silver.jpg" },
+          { "name": "teal", "image": "images/volkswagen beetle-teal.jpg" },
+          { "name": "purple", "image": "images/volkswagen beetle-purple.jpg" }
         ],
         "images": ["placeholder-beetle-image1.jpg", "placeholder-beetle-image2.jpg"]
       },
@@ -134,15 +181,30 @@
         "yearStart": 1964,
         "yearEnd": 1973,
         "specs": {
-          "engine": "2.0L Flat-6",
-          "horsepower": "130 HP"
+          "Body": "2-door coupe or Targa (from 1967)",
+          "engine": "Air-cooled, horizontally opposed six-cylinder (flat-six) ranging from 2.0L to 2.7L",
+          "horsepower": "Ranged from approximately 130 HP to 210 HP (depending on the year and engine - e.g., 911, 911 S, 911 E, 911 T, Carrera RS)",
+          "Torque": "Ranged depending on the engine",
+          "Brakes": "Disc brakes all around",
+          "Transmission": "4-speed manual (early), 5-speed manual (later)",
+          "Maximum speed": "Varied depending on the engine, typically between 130 mph to 150 mph+",
+          "0-60 mph": "Varied significantly depending on the engine, ranging from around 8 seconds to under 6 seconds (for the Carrera RS)",
+          "Front Suspension": "Independent, MacPherson struts, torsion bars, anti-roll bar",
+          "Rear Suspension": "Independent, trailing arms, torsion bars, anti-roll bar"
         },
-        "history": "The original generation of Porsche's legendary sports car.",
-        "defaultImage":"image/porsche-911-original-main.jpg",
+        "history": "The genesis of the Porsche 911 lies in the late 1950s as Porsche sought a successor to their successful but aging 356 model. Ferry Porsche envisioned a more powerful and comfortable sports car, retaining the rear-engine philosophy that was core to the brand's identity. The design was primarily penned by Ferdinand 'Butzi' Porsche, Ferry's son, and initially debuted as the '901' at the 1963 Frankfurt Motor Show. However, a naming dispute with Peugeot, who held rights to three-digit numbers with a '0' in the middle, led to the iconic '911' designation upon its market launch in 1964. The original 911 featured an air-cooled, flat-six engine, a significant step up from the 356's four-cylinder unit, providing enhanced performance and a distinctive engine note. Its sleek, sloping roofline and the overall silhouette quickly became recognizable and have been faithfully maintained through subsequent generations. Early models, such as the 911 and the more potent 911 S, were praised for their agile handling and spirited performance, despite the inherent challenges of the rear-engine layout. Over the years of the original 'F-Series' production (up to 1973), Porsche continuously refined the 911, increasing engine displacement from the initial 2.0 liters to 2.7 liters, introducing fuel injection, and offering various models like the luxurious 911 E and the more accessible 911 T. The introduction of the Targa top in 1967 provided an open-air driving experience while retaining a significant degree of structural rigidity. The pinnacle of the early 911 era was arguably the lightweight and high-performance Carrera RS 2.7 of 1973, a homologation special for racing that cemented the 911's reputation as a formidable competitor on the track and a highly desirable sports car for enthusiasts. The original Porsche 911 laid the foundation for a legendary lineage, embodying a unique blend of performance, design, and engineering that continues to define the Porsche brand.",
+        "defaultImage":"images/porsche-911-original-main.jpg",
         "colors": [
-          { "name": "Red", "image": "placeholder-porsche-red.jpg" },
-          { "name": "White", "image": "placeholder-porsche-white.jpg" },
-          { "name": "Light Yellow", "image": "placeholder-porsche-yellow.jpg" }
+          { "name": "Red", "image": "images/porsche-red.jpg" },
+          { "name": "White", "image": "images/porsche-white.jpg" },
+          { "name": "Yellow", "image": "images/porsche-yellow.jpg" },
+          { "name": "green", "image": "images/porsche-green.jpg" },
+          { "name": "black", "image": "images/porsche-black.jpg" },
+          { "name": "Blue", "image": "images/porsche-blue.jpg" },
+          { "name": "silver", "image": "images/porsche-silver.jpg" },
+          { "name": "teal", "image": "images/porsche-teal.jpg" },
+          { "name": "pink", "image": "images/porsche-pink.jpg" },
+          { "name": "purple", "image": "images/porsche-purple.jpg" }
         ],
         "images": ["placeholder-porsche-image1.jpg", "placeholder-porsche-image2.jpg"]
       },
@@ -153,15 +215,30 @@
         "yearStart": 1959,
         "yearEnd": 2000,
         "specs": {
-          "engine": "848cc Inline-4",
-          "horsepower": "34 HP"
+          "Body": "2-door saloon (hatchback)",
+          "engine": "Inline-4, water-cooled, ranging from approximately 1.0L to 1.3L (various Cooper and Cooper S versions)",
+          "horsepower": "Ranged from approximately 55 HP to 75 HP (depending on the model and year, Cooper S models were more powerful)",
+          "Torque": "Ranged depending on the engine",
+          "Brakes": "Disc brakes (front, on Cooper S and later models), drum brakes (rear)",
+          "Transmission": "4-speed manual",
+          "Maximum speed": "Varied depending on the engine, typically between 85 mph to 100+ mph (Cooper S)",
+          "0-60 mph": "Varied significantly depending on the engine and model, ranging from around 12 seconds to under 10 seconds (Cooper S)",
+          "Front Suspension": "Independent, rubber cone springs, trailing arms, telescopic dampers",
+          "Rear Suspension": "Independent, rubber cone springs, trailing arms, telescopic dampers"
         },
-        "history": "A small, economical, and iconic British car that became a cultural symbol.",
-        "defaultImage":"image/mini-cooper-classic-main.jpg",
+        "history": "The classic Mini Cooper emerged in 1961, two years after the revolutionary original Mini was launched by the British Motor Corporation (BMC). Conceived by John Cooper, a renowned racing car designer, the Cooper variant transformed the economical and space-efficient Mini into a spirited performance machine. By fitting a more powerful engine, upgraded brakes, and a sportier suspension, the Mini Cooper quickly gained popularity among enthusiasts and achieved considerable success in rallying, including multiple victories in the Monte Carlo Rally. Its nimble handling, compact size, and affordable price made it a cultural icon of the 1960s and beyond, loved by a diverse range of drivers and celebrated for its fun-to-drive character. The Mini Cooper continued to evolve through various iterations until the end of the classic Mini production in 2000, maintaining its distinctive design and status as a beloved automotive legend.",
+        "defaultImage":"images/mini-cooper-classic-main.jpg",
         "colors": [
-          { "name": "Red", "image": "placeholder-mini-red.jpg" },
-          { "name": "Green", "image": "placeholder-mini-green.jpg" },
-          { "name": "White", "image": "placeholder-mini-white.jpg" }
+          { "name": "Red", "image": "images/mini-cooper-classic-red.jpg" },
+          { "name": "Green", "image": "images/mini-cooper-classic-green.jpg" },
+          { "name": "White", "image": "images/mini-cooper-classic-white.jpg" },
+          { "name": "Blue", "image": "images/mini-cooper-classic-blue.jpg" },
+          { "name": "purple", "image": "images/mini-cooper-classic-purple.jpg" },
+          { "name": "teal", "image": "images/mini-cooper-classic-teal.jpg" },
+          { "name": "yellow", "image": "images/mini-cooper-classic-yellow.jpg" },
+          { "name": "pink", "image": "images/mini-cooper-classic-pink.jpg" },
+          { "name": "black", "image": "images/mini-cooper-classic-black.jpg" },
+          { "name": "silver", "image": "images/mini-cooper-classic-silver.jpg" }
         ],
         "images": ["placeholder-mini-image1.jpg", "placeholder-mini-image2.jpg"]
       },
@@ -172,15 +249,30 @@
         "yearStart": 1955,
         "yearEnd": 1975,
         "specs": {
-          "engine": "1.9L Inline-4",
-          "horsepower": "75 HP"
+          "Body": "4-door saloon (berline), 5-door estate (break/wagon), 2-door convertible (décapotable)",
+          "engine": "Inline-4, water-cooled, ranging from approximately 1.9L to 2.3L (various iterations and evolutions)",
+          "horsepower": "Ranged from approximately 75 HP to 141 HP (depending on the year and engine - e.g., DS 19, DS 20, DS 21, DS 23)",
+          "Torque": "Ranged depending on the engine",
+          "Brakes": "Inboard disc brakes (front), drum brakes (rear) - fully hydraulic system",
+          "Transmission": "4-speed manual, 4-speed semi-automatic (BvH - 'Boîte de Vitesses Hydraulique')",
+          "Maximum speed": "Varied depending on the engine and model, typically between 90 mph to 115 mph+",
+          "0-60 mph": "Varied significantly depending on the engine and year, ranging from around 14 seconds to under 10 seconds (for the DS 23 Pallas with fuel injection)",
+          "Front Suspension": "Independent, hydropneumatic with interconnected cylinders and automatic leveling",
+          "Rear Suspension": "Independent, hydropneumatic with interconnected cylinders and automatic leveling"
         },
-        "history": "A revolutionary French car known for its futuristic design and hydropneumatic suspension.",
-        "defaultImage":"image/citroen-ds-main.jpg",
+        "history": "The Citroën DS, unveiled at the 1955 Paris Motor Show, caused an absolute sensation with its futuristic and unconventional design, penned by Flaminio Bertoni and André Lefèbvre. Its sleek, aerodynamic body, devoid of traditional curves, and its innovative technologies set it far apart from its contemporaries. The DS was the first mass-production car to feature hydropneumatic suspension, which provided a self-leveling ride, adjustable ground clearance, and a remarkably smooth driving experience. This hydraulic system also powered the car's power steering, brakes, and semi-automatic transmission (on some models), showcasing Citroën's commitment to advanced engineering. Beyond its groundbreaking technology, the DS was celebrated for its luxurious and comfortable interior, its exceptional roadholding, and its safety features, including inboard front disc brakes. It became a symbol of French innovation and design prowess, captivating the world and maintaining a loyal following throughout its two-decade production run. The DS was not just a car; it was a statement, a testament to Citroën's visionary approach to automotive engineering and styling, and it remains an iconic and highly collectible vehicle today.",
+        "defaultImage":"images/citroen-ds-main.jpg",
         "colors": [
-          { "name": "Black", "image": "placeholder-citroen-black.jpg" },
-          { "name": "Blue", "image": "placeholder-citroen-blue.jpg" },
-          { "name": "White", "image": "placeholder-citroen-white.jpg" }
+          { "name": "Black", "image": "images/citroen-black.jpg" },
+          { "name": "Blue", "image": "images/citroen-blue.jpg" },
+          { "name": "White", "image": "images/citroen-white.jpg" },
+          { "name": "maroon", "image": "images/citroen-maroon.jpg" },
+          { "name": "orange", "image": "images/citroen-orange.jpg" },
+          { "name": "purple", "image": "images/citroen-purple.jpg" },
+          { "name": "green", "image": "images/citroen-green.jpg" },
+          { "name": "yellow", "image": "images/citroen-yellow.jpg" },
+          { "name": "silver", "image": "images/citroen-silver.jpg" },
+          { "name": "Red", "image": "images/citroen-red.jpg" }
         ],
         "images": ["placeholder-citroen-image1.jpg", "placeholder-citroen-image2.jpg"]
       },
@@ -191,14 +283,65 @@
         "yearStart": 1966,
         "yearEnd": 1994,
         "specs": {
-          "engine": "1.6L Inline-4",
-          "horsepower": "109 HP"
+          "Body": "2-door convertible (spider)",
+          "engine": "Inline-4, water-cooled, twin overhead camshaft (twin-cam) ranging from 1.6L to 1.8L (depending on the specific year within the series)",
+          "horsepower": "Ranged from approximately 109 HP (1.6L) to 118 HP (1.8L)",
+          "Torque": "Ranged from approximately 98 lb-ft (1.6L) to 122 lb-ft (1.8L)",
+          "Brakes": "Disc brakes (front), disc brakes (rear)",
+          "Transmission": "5-speed manual",
+          "Maximum speed": "Varied depending on the engine, typically around 110 mph to 118 mph",
+          "0-60 mph": "Varied depending on the engine, typically around 11 seconds to 10 seconds",
+          "Front Suspension": "Independent, double wishbones, coil springs, telescopic dampers, anti-roll bar",
+          "Rear Suspension": "Independent, live axle with trailing arms, coil springs, telescopic dampers, anti-roll bar"
         },
-        "history": "A beautiful Italian roadster that became famous for its appearance in 'The Graduate'.",
-        "defaultImage":"image/alfa-romeo-spider-main.jpg",
+        "history": "The Alfa Romeo Spider, particularly the Series 1 `Duetto` launched in 1966, is an iconic Italian sports car renowned for its elegant and distinctive 'coda tronca' ( Kamm tail) design penned by Pininfarina. It quickly captured hearts with its beautiful lines, lively handling, and the engaging character of its twin-cam engine. The Duetto gained international fame after its prominent appearance in the 1967 film 'The Graduate,' forever associating it with youthful romance and freedom. As the first of a beloved four-generation lineage spanning over three decades, the Spider Duetto established a lasting legacy as a stylish and enjoyable open-top driving experience, embodying the spirit of Italian motoring.",
+        "defaultImage":"images/alfa-romeo-spider-main.jpg",
         "colors": [
-          { "name": "Red", "image": "placeholder-alfa-red.jpg" },
-          { "name": "White", "image": "placeholder-alfa-white.jpg" },
-          { "name": "Blue", "image": "placeholder-alfa-blue.jpg" }
+          { "name": "Red", "image": "images/alfa-red.jpg" },
+          { "name": "White", "image": "images/alfa-white.jpg" },
+          { "name": "Blue", "image": "images/alfa-blue.jpg" },
+          { "name": "maroon", "image": "images/alfa-maroon.jpg" },
+          { "name": "brown", "image": "images/alfa-brown.jpg" },
+          { "name": "yellow", "image": "images/alfa-yellow.jpg" },
+          { "name": "teal", "image": "images/alfa-teal.jpg" },
+          { "name": "green", "image": "images/alfa-green.jpg" },
+          { "name": "silver", "image": "images/alfa-silver.jpg" },
+          { "name": "black", "image": "images/alfa-black.jpg" }
         ],
-        "images": ["placeholder-alfa-image1.jpg"]} ]}
+        "images": ["placeholder-alfa-image1.jpg"]}, 
+
+        {
+          "id": "mercedes-benz-300-sl-gullwing",
+          "make": "Mercedes-Benz",
+          "model": "300 SL Gullwing",
+          "yearStart": 1954,
+          "yearEnd": 1957,
+          "specs": {
+            "Body": "2-door coupe with gullwing doors",
+            "engine": "Inline-6, water-cooled, 3.0L (2996 cc), single overhead camshaft, Bosch mechanical fuel injection",
+            "horsepower": "Approximately 215 HP (158 kW) @ 5800 rpm",
+            "Torque": "Approximately 203 lb-ft (275 Nm) @ 4600 rpm",
+            "Brakes": "Drum brakes all around",
+            "Transmission": "4-speed manual, fully synchronized",
+            "Maximum speed": "Approximately 160 mph (257 km/h) - varied slightly depending on final drive ratio",
+            "0-60 mph": "Approximately 7-8 seconds",
+            "Front Suspension": "Independent, double wishbones, coil springs, telescopic dampers, anti-roll bar",
+            "Rear Suspension": "Independent, swing axle, coil springs, telescopic dampers"
+          },
+          "history": "The Mercedes-Benz 300 SL Gullwing, introduced in 1954, is a legendary sports car renowned for its distinctive top-hinged 'gullwing' doors, a feature necessitated by its tubular spaceframe chassis design which had high sills. Derived from Mercedes-Benz's successful W194 racing car, the 300 SL was the fastest production car of its time, boasting advanced fuel injection technology. Its stunning design, powerful performance, and exclusivity quickly made it a symbol of prestige and automotive excellence. Despite a relatively short production run, the 300 SL Gullwing remains one of the most iconic and highly sought-after classic cars in the world, representing a pinnacle of 1950s automotive engineering and design.",
+          "defaultImage":"images/mercedes-benz-300-sl-gullwing-main.jpg",
+          "colors": [
+            { "name": "Red", "image": "images/mercedes-benz-300-sl-gullwing-red.jpg" },
+            { "name": "White", "image": "images/mercedes-benz-300-sl-gullwing-white.jpg" },
+            { "name": "orange", "image": "images/mercedes-benz-300-sl-gullwing-orange.jpg" },
+            { "name": "maroon", "image": "images/mercedes-benz-300-sl-gullwing-maroon.jpg" },
+            { "name": "purple", "image": "images/mercedes-benz-300-sl-gullwing-purple.jpg" },
+            { "name": "yellow", "image": "images/mercedes-benz-300-sl-gullwing-yellow.jpg" },
+            { "name": "teal", "image": "images/mercedes-benz-300-sl-gullwing-teal.jpg" },
+            { "name": "green", "image": "images/mercedes-benz-300-sl-gullwing-green.jpg" },
+            { "name": "silver", "image": "images/mercedes-benz-300-sl-gullwing-silver.jpg" },
+            { "name": "black", "image": "images/mercedes-benz-300-sl-gullwing-black.jpg" }
+          ],
+          "images": ["placeholder-alfa-image1.jpg"]} ]}
+         
+   
