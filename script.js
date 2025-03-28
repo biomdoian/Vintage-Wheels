@@ -104,7 +104,3 @@ fetch('http://localhost:3000/cars')
         // Display the initial state (headers only, main image) on load
         clearCarDetails();
     });
-
-
-
-
