@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vintage Car Showcase</title>
+    <title>Vintage Car Gallery</title>
+    <link rel="website icon"type="jpg"
+    href="images/vintage-wheels-main.jpg">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -53,6 +55,31 @@
                 </div>
                 <div>
                     <label for="preferred-car"> Preferred Vintage Car:</label>
+                    <select id="preferred-car" name="preferred-car">
+                        <option value="">-- Choose a Car --</option>
+                        </select>
+                </div>
+                <div>
+                    <label for="least-appealing-car"> Least Preferred Vintage Car:</label>
+                    <select id="least-appealing-car" name="least-appealing-car">
+                        <option value="">-- Choose a Car --</option>
+                        </select>
+                </div>
+        
+                <button type="submit">Submit</button>
+                <p id="submission-message" style="display:none; color: green;">Response Submitted!</p>
+            </form>
+        </section>
+
+      <!--  <section id="favorite-car-review">
+            <h2>Share Your Thoughts!</h2>
+            <form id="review-form">
+                <div>
+                    <label for="name"> Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="preferred-car"> Preferred Vintage Car:</label>
                     <input type="text" id="preferred-car" name="preferred-car">
                 </div>
                 <div>
@@ -62,13 +89,8 @@
                 <button type="submit">Submit</button>
                 <p id="submission-message" style="display:none; color: green;">Response Submitted!</p>
             </form>
-        </section>
+        </section>-->
     </main>
-
-    <footer>
-        <p>&copy; 2023 Vintage Car Gallery</p>
-    </footer>
-
     <script src="script.js"></script>
 </body>
 </html>

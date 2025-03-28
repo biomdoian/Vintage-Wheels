@@ -15,6 +15,22 @@ fetch('http://localhost:3000/cars')
         const preferredCarInput = document.getElementById('preferred-car');
         const leastAppealingCarInput = document.getElementById('least-appealing-car');
 
+        const preferredCarSelect = document.getElementById('preferred-car');
+        const leastAppealingCarSelect = document.getElementById('least-appealing-car');
+
+  // Function to populate a select dropdown with car options
+  function populateCarDropdown(selectElement, cars) {
+    cars.forEach(car => {
+        const option = document.createElement('option');
+        option.value = car.make + ' ' + car.model; // Use a combination for value
+        option.textContent = car.make + ' ' + car.model;
+        selectElement.appendChild(option);
+    });
+}
+ // Populate the dropdown menus
+ populateCarDropdown(preferredCarSelect, cars);
+ populateCarDropdown(leastAppealingCarSelect, cars);
+
         // Populates the car selection dropdown
         cars.forEach(car => {
             const option = document.createElement('option');
@@ -104,3 +120,5 @@ fetch('http://localhost:3000/cars')
         // Display the initial state (headers only, main image) on load
         clearCarDetails();
     });
+
+
